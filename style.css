@@ -208,7 +208,7 @@ main {
 }
 .userImg img {
   width: auto;
-  height: 47.3rem;
+  height: 47rem;
 }
 .circleImg img {
   width: auto;
@@ -226,4 +226,69 @@ main {
 .mainBg svg {
   width: 100%;
   height: 100%;
+}
+
+/* Contact */
+.container {
+  padding: 2.44rem 8.25rem 1.5rem 8.25rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.contactInfos {
+  width: 48%;
+}
+.contactLinks {
+  width: 34%;
+  justify-content: space-between;
+}
+.contactInfos_img img {
+  width: 6.375rem;
+  height: 6.375rem;
+  margin-right: 1.69rem;
+}
+.contactInfos_textTitle,
+.contactInfos_textNumber,
+.contactInfos_textEmail {
+  margin-bottom: 1rem;
+}
+.contactInfos_text div:last-child {
+  margin-bottom: 0;
+}
+.contactInfos_textTitle h1 {
+  color: #000;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.contactInfos_textNumber h1,
+.contactInfos_textEmail h1,
+.contactInfos_textLocation h1 {
+  color: #000;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+.contactInfos_textNumber svg,
+.contactInfos_textEmail svg,
+.contactInfos_textLocation svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.contactLinks p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.blackText {
+  color: #000;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
 }
