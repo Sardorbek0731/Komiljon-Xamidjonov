@@ -468,7 +468,6 @@ main {
   .formModal {
     width: 345px;
     flex-direction: column;
-    position: fixed;
   }
 
   .formModal .left {
