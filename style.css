@@ -316,9 +316,10 @@ main {
   justify-content: space-between;
   height: 100vh;
   width: 100vw;
+  padding: 6rem;
 }
 .finallyStep_text {
-  width: 35%;
+  width: 38%;
 }
 .finallyStep_text_title svg {
   width: 7.5rem;
@@ -331,12 +332,13 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 117%;
+  width: 65%;
 }
 .mr-3 {
   margin-right: 3rem;
 }
 .finallyStep_img {
-  width: 55%;
+  width: 50%;
   justify-content: center;
 }
 .finallyStep_img img {
@@ -352,8 +354,8 @@ main {
   margin: 2rem 0;
 }
 .subscribe_button {
-  width: 30.8125rem;
-  height: 3.375rem;
+  width: 100%;
+  padding: 0.75rem 0;
   border-radius: 6.25rem;
   background: #0e94d0;
   border: none;
@@ -649,19 +651,28 @@ main {
 
   .finalStep {
     flex-direction: column-reverse;
+    justify-content: center;
+    padding: 5rem 3rem;
   }
   .finallyStep_img img {
-    width: 20rem;
+    width: 100%;
     height: auto;
-    margin-top: 5rem;
   }
   .finallyStep_text {
+    margin-top: 5rem;
     width: 100%;
   }
-  .finallyStep_img  {
+  .finallyStep_text_title h1 {
+    width: 80%;
+  }
+  .finallyStep_text p {
+    text-align: center;
+  }
+  .finallyStep_img {
     width: 100%;
   }
-  .mr-3 {
-    margin-right: 0;
+  .subscribe_button h1 {
+    font-size: 1.5rem;
   }
 }
+ 
