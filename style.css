@@ -302,6 +302,69 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.finalStep {
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+.finallyStep_text {
+  width: 35%;
+}
+.finallyStep_text_title svg {
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-right: 1rem;
+}
+.finallyStep_text_title h1 {
+  color: #000;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117%;
+}
+.mr-3 {
+  margin-right: 3rem;
+}
+.finallyStep_img {
+  width: 55%;
+  justify-content: center;
+}
+.finallyStep_img img {
+  width: auto;
+  height: 35rem;
+}
+.finallyStep_text_p p {
+  color: #000;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 2rem 0;
+}
+.subscribe_button {
+  width: 30.8125rem;
+  height: 3.375rem;
+  border-radius: 6.25rem;
+  background: #0e94d0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.subscribe_button svg {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+.subscribe_button h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 1280px) {
   html {
     font-size: 15px;
@@ -446,5 +509,23 @@ main {
   }
   .hr {
     margin: 1.5rem 2.8rem;
+  }
+
+  .finalStep {
+    flex-direction: column-reverse;
+  }
+  .finallyStep_img img {
+    width: 20rem;
+    height: auto;
+    margin-top: 5rem;
+  }
+  .finallyStep_text {
+    width: 100%;
+  }
+  .finallyStep_img  {
+    width: 100%;
+  }
+  .mr-3 {
+    margin-right: 0;
   }
 }
