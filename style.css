@@ -308,7 +308,7 @@ main {
 .finallyStep_text {
   width: 38%;
 }
-.finallyStep_text_title svg {
+.finallyStep_text_title img {
   width: 7.5rem;
   height: 7.5rem;
   margin-right: 1rem;
@@ -346,7 +346,7 @@ main {
   outline: none;
   cursor: pointer;
 }
-.subscribe_button svg {
+.subscribe_button img {
   margin-right: 1rem;
   width: 2rem;
   height: 2rem;
