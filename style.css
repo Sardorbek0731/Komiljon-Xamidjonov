@@ -122,7 +122,7 @@ main {
 .twoDayPlans_item:last-child {
   margin-bottom: 0;
 }
-.twoDayPlans_item_svg svg {
+.twoDayPlans_item_svg img {
   margin-right: 1.12rem;
   width: 1.5rem;
   height: 1.5rem;
@@ -138,8 +138,7 @@ main {
   margin-bottom: 2.12rem;
 }
 .registerBtn {
-  height: 3.375rem;
-  padding: 0.75rem 1.5rem;
+  padding: 1.1rem 3.5rem;
   border-radius: 1.125rem;
   background: #ff1919;
   border: 2px solid transparent;
@@ -264,9 +263,9 @@ main {
   font-weight: 400;
   line-height: 125%;
 }
-.contactInfos_textNumber svg,
-.contactInfos_textEmail svg,
-.contactInfos_textLocation svg {
+.contactInfos_textNumber img,
+.contactInfos_textEmail img,
+.contactInfos_textLocation img {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.5rem;
@@ -439,6 +438,13 @@ main {
   border: none;
   outline: none;
   cursor: pointer;
+  border: 2px solid white;
+  transition: all 0.2s linear;
+}
+.formModal .right button:hover {
+  background-color: white;
+  border: 2px solid #ff1919;
+  color: #ff1919;
 }
 
 .overlayBg {
@@ -560,6 +566,7 @@ main {
   }
   .registerBtn {
     margin-right: 0;
+    padding: 1rem 2.5rem;
   }
   .mainImgs {
     width: 100%;
@@ -667,5 +674,11 @@ main {
   }
   .formModal .right h2 {
     font-size: 1.8rem;
+  }
+  .finallyStep_text {
+    margin-top: 2rem;
+  }
+  .finallyStep_text p {
+    font-size: 1.3rem;
   }
 }
