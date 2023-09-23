@@ -657,3 +657,15 @@ main {
     font-size: 1.3rem;
   }
 }
+
+@media only screen and (max-height: 740px) {
+  .formModal .left {
+    height: 320px;
+  }
+  .formModal .right {
+    padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+  }
+  .formModal .right h2 {
+    font-size: 1.8rem;
+  }
+}
