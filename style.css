@@ -661,6 +661,7 @@ main {
   }
   .finallyStep_text_title h1 {
     width: 80%;
+    font-size: 2rem;
   }
   .finallyStep_text p {
     text-align: center;
@@ -669,7 +670,6 @@ main {
     width: 100%;
   }
   .subscribe_button h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
- 
