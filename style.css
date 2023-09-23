@@ -13,7 +13,9 @@ html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
-
+.mb-24 {
+  margin-bottom: 1.5rem;
+}
 .flex {
   display: flex;
 }
@@ -34,6 +36,14 @@ html {
 
 .spanColor {
   color: #7019ff;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }
 
 /* Main */
@@ -365,6 +375,132 @@ main {
   text-transform: uppercase;
 }
 
+.formModal {
+  position: fixed;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 11;
+  width: 935px;
+  height: auto;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.formModal .left {
+  background-image: url("./img/modalImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.formModal .right {
+  padding: 2.3rem;
+  width: 55%;
+}
+
+.formModal .right h2 {
+  font-size: 2rem;
+  line-height: 132%;
+}
+
+.formModal .right p {
+  font-size: 1.2rem;
+  line-height: 132%;
+}
+
+.formModal form {
+  margin-top: 1.5rem;
+}
+
+.formModal input {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #bed4da;
+  background: #f3f7f8;
+  padding: 0.75rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.formModal label {
+  color: #48635b;
+  font-size: 16px;
+  line-height: 132%;
+  margin-bottom: 0.5rem;
+}
+
+.formModal .right button {
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 0.75rem;
+  background: #ff1919;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 132%;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.overlayBg {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(56, 46, 74, 0.5);
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  .formModal {
+    width: 365px;
+    flex-direction: column;
+    /* margin: 1rem; */
+    position: fixed;
+    top: -30%;
+    left: 50%;
+  }
+
+  .formModal .left {
+    width: 100%;
+    height: 370px;
+    position: relative;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
+  }
+
+  .formModal .right {
+    width: 100%;
+  }
+
+  .formModal input {
+    padding: 1.2rem;
+    font-size: 1.3rem;
+  }
+  .formModal .left button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+}
 @media only screen and (max-width: 1280px) {
   html {
     font-size: 15px;

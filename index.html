@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="registerAnd_price flex align-center">
-                <div class="registerBtn flex align-center justify-center">
+                <div class="registerBtn flex align-center justify-center" id="register">
                     <h3>RO'YXATDAN O'TISH</h3>
                 </div>
                 <div class="lessonPrice">
@@ -184,6 +184,38 @@
             <h1>Copyright 2023® – Komiljon Xamidjonov</h1>
         </div>
     </footer>
+
+    <div>
+        <div class="overlayBg d-none" id="overlayBg"></div>
+
+    <div class="formModal flex d-none" id="formModal">
+        <div class="left">
+            <button class="d-none" id="closeBtn">
+                <img src="./img/X.svg" alt="Close">
+            </button>
+        </div>
+        <div class="right">
+            <h2>Ro’yxatdan <span class="spanColor">o’tish</span></h2>
+            <p>Pastdagi formani to'ldirishingiz bilan 5ta sirli <span class="spanColor">BEPUL</span> qo'llanma siz uchun ochiladi </p>
+            <form id="registerForm">
+                <p class="mb-24">
+                    <label for="name">
+                    Ism
+                </label>
+                <input type="text" id="name" placeholder="Ismingizni kiriting" autofocus>
+                </p>
+                <p class="mb-24">
+                    <label for="tel">
+                        Telefon raqami
+                    </label>
+                    <input type="text" id="tel" value="+998">
+                </p>
+                <button type="submit">Ro'yxatdan o'tish</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <div class="afterFormModal"></div>
 
     <script src="./app.js"></script>
 </body>
