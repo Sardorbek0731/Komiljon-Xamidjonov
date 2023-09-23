@@ -6,6 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 body {
   overflow-x: hidden;
 }
@@ -77,17 +80,13 @@ main {
 .lessonDate h3 {
   color: #000;
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .name,
 .freeLesson {
   color: #000;
   font-size: 1.5rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .freeLesson {
   font-size: 1.125rem;
@@ -98,7 +97,6 @@ main {
 .mainTitle h1 {
   color: #000;
   font-size: 3.125rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 125%;
 }
@@ -113,7 +111,6 @@ main {
 .twoDayPlans_title h1 {
   color: #7019ff;
   font-size: 1.5rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 125%;
 }
@@ -132,7 +129,6 @@ main {
 .twoDayPlans_item p {
   color: #000;
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 125%;
 }
@@ -157,7 +153,6 @@ main {
 .registerBtn h3 {
   color: #fff;
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 125%;
   text-transform: uppercase;
@@ -170,7 +165,6 @@ main {
 .deletedPrice h3 {
   color: #000;
   font-size: 0.875rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 125%;
   text-decoration-line: strikethrough;
@@ -179,7 +173,6 @@ main {
 .nowPrice h3 {
   color: #ff1919;
   font-size: 2rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 125%;
 }
@@ -201,7 +194,6 @@ main {
 .lessonBonus_p p {
   color: #000;
   font-size: 0.875rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 125%;
 }
@@ -260,7 +252,6 @@ main {
 .contactInfos_textTitle h1 {
   color: #000;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 125%;
 }
@@ -269,7 +260,6 @@ main {
 .contactInfos_textLocation h1 {
   color: #000;
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 125%;
 }
@@ -284,14 +274,12 @@ main {
 .contactLinks p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
 }
 .blackText {
   color: #000;
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 140%;
 }
@@ -306,7 +294,6 @@ main {
 .footerText h1 {
   color: rgba(0, 0, 0, 0.6);
   font-size: 0.875rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 125%;
   margin-bottom: 1.5rem;
@@ -329,7 +316,6 @@ main {
 .finallyStep_text_title h1 {
   color: #000;
   font-size: 3.125rem;
-  font-style: normal;
   font-weight: 700;
   line-height: 117%;
   width: 65%;
@@ -348,9 +334,7 @@ main {
 .finallyStep_text_p p {
   color: #000;
   font-size: 1.5rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   margin: 2rem 0;
 }
 .subscribe_button {
@@ -371,9 +355,7 @@ main {
   color: #fff;
   text-align: center;
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -525,15 +507,13 @@ main {
   }
   .name {
     font-size: 1.125rem;
-    font-style: normal;
+
     font-weight: 600;
-    line-height: normal;
   }
   .freeLesson {
     font-size: 0.875rem;
-    font-style: normal;
+
     font-weight: 400;
-    line-height: normal;
   }
   .lessonDate {
     margin-right: 0;
