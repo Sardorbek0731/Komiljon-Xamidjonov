@@ -6,6 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
@@ -187,6 +190,7 @@ main {
   border-radius: 0.75rem;
   border: 2px solid #7019ff;
   background: #fff;
+  z-index: 3;
   padding: 1.06rem 1.69rem 1.06rem 1rem;
 }
 .lessonBonus_img img {
@@ -211,7 +215,7 @@ main {
   bottom: -0.4rem;
 }
 .circleImg {
-  right: 4rem;
+  right: 3rem;
   z-index: 1;
 }
 .userImg {
@@ -310,7 +314,7 @@ main {
 
 .formModal {
   position: fixed;
-  top: -10%;
+  top: -5%;
   left: 50%;
   transform: translate(-50%, 50%);
   z-index: 11;
@@ -398,10 +402,10 @@ main {
   .formModal {
     width: 365px;
     flex-direction: column;
-    margin: 1rem;
+    /* margin: 1rem; */
     position: fixed;
     top: -30%;
-    left: 43%;
+    left: 50%;
   }
 
   .formModal .left {
@@ -432,5 +436,151 @@ main {
     border-radius: 50%;
     width: 30px;
     height: 30px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+  .dateAnd_userName {
+    flex-direction: column;
+  }
+  .userName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .name {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .freeLesson {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .lessonDate {
+    margin-right: 0;
+  }
+  .mainInfos {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 3.13rem;
+  }
+  .userName {
+    margin-top: 0.87rem;
+  }
+  .mainTitle {
+    display: flex;
+    justify-content: center;
+    padding: 0 0.87rem;
+  }
+  .mainTitle h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .twoDayPlans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.6rem;
+  }
+  .twoDayPlans_title {
+    margin-bottom: 0.75rem;
+  }
+  .lessonBonus {
+    position: relative;
+    margin-right: 0;
+  }
+  .registerAnd_price {
+    justify-content: space-between;
+    padding: 0 1.6rem;
+    margin-bottom: 1.75rem;
+  }
+  .registerBtn {
+    margin-right: 0;
+  }
+  .mainImgs {
+    width: 100%;
+  }
+  .userImg,
+  .circleImg {
+    position: relative;
+    width: 100%;
+  }
+  .circleImg {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .userImg img {
+    height: auto;
+    width: 100%;
+  }
+  .circleImg img {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .contactInfos {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contactLinks {
+    width: 100%;
+  }
+  .lessonBonus {
+    width: auto;
+    margin: 0 1.6rem;
+  }
+  .contactInfos_img {
+    display: flex;
+    justify-content: center;
+  }
+  .contactInfos_img img {
+    margin-right: 0;
+  }
+  .contactInfos_textTitle h1 {
+    text-align: center;
+  }
+  .contactInfos_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .container {
+    padding: 1.5rem 2.8rem;
+    padding-bottom: 0;
+  }
+  .contactLinks p {
+    text-align: center;
+  }
+  .contactLinks_p1 {
+    margin-bottom: 1.5rem;
+  }
+  .hr {
+    margin: 1.5rem 2.8rem;
   }
 }
