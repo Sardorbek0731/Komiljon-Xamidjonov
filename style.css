@@ -375,14 +375,19 @@ main {
   text-transform: uppercase;
 }
 
-.formModal {
+.modal {
   position: fixed;
-  top: -5%;
-  left: 50%;
-  transform: translate(-50%, 50%);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: 11;
+}
+
+.formModal {
+  position: relative;
+  z-index: 15;
   width: 935px;
-  height: auto;
   border-radius: 1rem;
   background-color: #fff;
 }
@@ -458,17 +463,24 @@ main {
   background: rgba(56, 46, 74, 0.5);
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 1280px) {
   html {
-    font-size: 12px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+  main {
+    flex-direction: column;
+    height: auto;
   }
   .formModal {
     width: 365px;
     flex-direction: column;
-    /* margin: 1rem; */
     position: fixed;
-    top: -30%;
-    left: 50%;
   }
 
   .formModal .left {
@@ -499,21 +511,6 @@ main {
     border-radius: 50%;
     width: 30px;
     height: 30px;
-  }
-}
-@media only screen and (max-width: 1280px) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 12px;
-  }
-  main {
-    flex-direction: column;
-    height: auto;
   }
   .dateAnd_userName {
     flex-direction: column;
@@ -658,7 +655,7 @@ main {
   .finallyStep_text {
     width: 100%;
   }
-  .finallyStep_img  {
+  .finallyStep_img {
     width: 100%;
   }
   .mr-3 {
