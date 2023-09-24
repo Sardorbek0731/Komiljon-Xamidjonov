@@ -53,10 +53,10 @@ html {
 /* Main */
 main {
   position: relative;
-  height: 92vh;
-  width: 100%;
-  background-color: #eef5fe;
-  border-bottom: 2px solid #7019ff;
+  height: 100vh;
+  width: 100vw;
+  background: url("./img/Rectangle\ 1.svg") top left no-repeat;
+  background-size: cover;
 }
 
 .mainInfos {
@@ -68,7 +68,7 @@ main {
 
 .dateAnd_userName,
 .mainTitle {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 .lessonDate {
   border-radius: 50px;
@@ -107,7 +107,7 @@ main {
 }
 .twoDayPlans_title,
 .twoDayPlans_items {
-  margin-bottom: 1.88rem;
+  margin-bottom: 2.2rem;
 }
 .twoDayPlans_title h1 {
   color: #7019ff;
@@ -135,7 +135,7 @@ main {
 }
 
 .registerAnd_price {
-  margin-bottom: 2.12rem;
+  margin-bottom: 3rem;
 }
 .registerBtn {
   padding: 1.1rem 3.5rem;
@@ -201,26 +201,11 @@ main {
 .mainImgs {
   width: 40%;
 }
-.userImg,
-.circleImg {
+.mainImgs img {
+  height: 100%;
   position: absolute;
-  bottom: -0.4rem;
-}
-.circleImg {
-  right: 3rem;
-  z-index: 1;
-}
-.userImg {
-  z-index: 2;
   right: 0;
-}
-.userImg img {
-  width: auto;
-  height: 44rem;
-}
-.circleImg img {
-  width: auto;
-  height: 22.5rem;
+  bottom: 0;
 }
 
 /* Contact */
@@ -469,7 +454,10 @@ main {
   }
   main {
     flex-direction: column;
+    width: 100vw;
     height: auto;
+    background: url("./img/Rectangle\ 1\ min.png") left bottom no-repeat;
+    background-size: cover;
   }
   .formModal {
     width: 340px;
@@ -558,25 +546,15 @@ main {
     padding: 1rem 2.5rem;
   }
   .mainImgs {
+    display: flex;
+    justify-content: center;
     width: 100%;
   }
-  .userImg,
-  .circleImg {
-    position: relative;
-    width: 100%;
-  }
-  .circleImg {
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-  }
-  .userImg img {
+  .mainImgs img {
+    position: static;
     height: auto;
-    width: 100%;
-  }
-  .circleImg img {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    right: auto;
   }
   .container {
     flex-direction: column;
