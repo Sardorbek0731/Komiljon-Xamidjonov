@@ -456,7 +456,7 @@ main {
     flex-direction: column;
     width: 100vw;
     height: auto;
-    background: url("./img/Rectangle\ 1\ min.png") left bottom no-repeat;
+    background: url("./img/Rectangle\ 1\ min.png") center bottom no-repeat;
     background-size: cover;
   }
   .formModal {
