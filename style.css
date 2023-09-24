@@ -53,7 +53,7 @@ html {
 /* Main */
 main {
   position: relative;
-  height: 100vh;
+  height: 103vh;
   width: 100vw;
   background: url("./img/Rectangle\ 1.svg") top center no-repeat;
   background-size: cover;
@@ -204,7 +204,7 @@ main {
 .mainImgs img {
   height: 100%;
   position: absolute;
-  right: 0;
+  right: -1rem;
   bottom: 0;
 }
 
