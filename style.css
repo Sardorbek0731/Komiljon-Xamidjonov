@@ -204,7 +204,7 @@ main {
 .mainImgs img {
   height: 100%;
   position: absolute;
-  right: -1rem;
+  right: -0.5rem;
   bottom: 0;
 }
 
